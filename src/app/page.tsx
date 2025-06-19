@@ -2,6 +2,7 @@ import {Header} from "@/components/sections/Header";
 import {Hero} from "@/components/sections/Hero";
 import {AboutUs} from "@/components/sections/AboutUs";
 import {Menu} from "@/components/sections/Menu";
+import {Info} from "@/components/sections/Info";
 
 export default function Home() {
     return (
@@ -10,6 +11,7 @@ export default function Home() {
             <Hero />
             <AboutUs />
             <Menu />
+            <Info />
         </>
     );
 }
