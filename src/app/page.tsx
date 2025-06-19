@@ -4,6 +4,7 @@ import {AboutUs} from "@/components/sections/AboutUs";
 import {Menu} from "@/components/sections/Menu";
 import {Info} from "@/components/sections/Info";
 import {Gallery} from "@/components/sections/Gallery";
+import {Description} from "@/components/sections/Description";
 
 export default function Home() {
     return (
@@ -14,6 +15,7 @@ export default function Home() {
             <Menu />
             <Info />
             <Gallery />
+            <Description />
         </>
     );
 }
