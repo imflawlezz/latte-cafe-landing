@@ -6,12 +6,12 @@ export const Hero = () => {
             <div className="relative aspect-[2/3] md:aspect-video lg:aspect-auto lg:h-[640px] w-full">
                 <Image
                     src="/hero.png"
-                    alt="Cafe interior or hero image"
+                    alt="Cafe interior"
                     fill
                     priority
                     sizes="(max-width: 767px) 100vw, (max-width: 1023px) 90vw, 80vw"
                     className="object-cover object-center"
-                    quality={90}
+                    quality={100}
                 />
             </div>
         </section>
