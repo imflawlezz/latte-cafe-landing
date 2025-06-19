@@ -10,7 +10,7 @@ export const Hero = () => {
                     fill
                     priority
                     sizes="(max-width: 767px) 100vw, (max-width: 1023px) 90vw, 80vw"
-                    className="object-cover object-center blur-xs sm:blur-none"
+                    className="object-cover object-center"
                     quality={90}
                 />
             </div>
