@@ -5,6 +5,7 @@ import {Menu} from "@/components/sections/Menu";
 import {Info} from "@/components/sections/Info";
 import {Gallery} from "@/components/sections/Gallery";
 import {Description} from "@/components/sections/Description";
+import {Footer} from "@/components/sections/Footer";
 
 export default function Home() {
     return (
@@ -16,6 +17,7 @@ export default function Home() {
             <Info />
             <Gallery />
             <Description />
+            <Footer />
         </>
     );
 }
